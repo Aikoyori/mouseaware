@@ -1,0 +1,289 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"mouse",
+				"mouseBeingHeldOnBox"
+			],
+			[
+				"setPo",
+				"setPosX"
+			],
+			[
+				"get",
+				"getPos"
+			],
+			[
+				"hol",
+				"holdRight"
+			],
+			[
+				"hold",
+				"holdLeft"
+			],
+			[
+				"ca",
+				"canGoPosY"
+			],
+			[
+				"origi",
+				"originalVel"
+			],
+			[
+				"orig",
+				"originalVel"
+			],
+			[
+				"can",
+				"canGoNegX"
+			],
+			[
+				"set",
+				"setVelY"
+			],
+			[
+				"cango",
+				"canGoPosY"
+			],
+			[
+				"x",
+				"xrel"
+			],
+			[
+				"cang",
+				"canGoNegY"
+			],
+			[
+				"coll",
+				"collisionAccuracy"
+			],
+			[
+				"vector",
+				"Vector2f"
+			],
+			[
+				"play",
+				"player"
+			],
+			[
+				"c",
+				"currentFrame"
+			],
+			[
+				"display",
+				"displayIndex"
+			],
+			[
+				"SDL_R",
+				"SDL_Renderer"
+			],
+			[
+				"grass",
+				"grass_terrain"
+			],
+			[
+				"player",
+				"playerTexture"
+			],
+			[
+				"SDL",
+				"SDL_Texture"
+			]
+		]
+	},
+	"build_system": "Build Debug",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Build Debug",
+					""
+				],
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					""
+				],
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					"Run"
+				]
+			],
+			[
+				"Build Debug",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"folders",
+				"Project: Refresh Folders"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 165.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/quewy/Desktop/Mouseaware/src/entity.cpp",
+		"/C/Users/quewy/Desktop/Mouseaware/include/Math.hpp",
+		"/C/Users/quewy/Desktop/Mouseaware/Mouseaware.sublime-project",
+		"/C/Users/quewy/Desktop/Mouseaware/Mouseaware.sublime-workspace"
+	],
+	"find":
+	{
+		"height": 41.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"TempPos",
+			"1.0f",
+			"player.",
+			"player.getVel()",
+			"\nvoid Entity::updateDVD()\n{\n\n\tif(pos.x >= 1280 / 4.0f - currentFrame.w)\n\t{\n\t\tmovx = false;\n\t}\n\tif(pos.y >= 720 / 4.0f - currentFrame.h)\n\t{\n\t\tmovy = false;\n\t}\n\tif(pos.x <= 0)\n\t{\n\t\tmovx = true;\n\t}\n\tif(pos.y <= 0)\n\t{\n\t\tmovy = true;\n\t}\n\tif(movx)\n\t{\n\t\tif(movy)\n\t\t{\n\n\t\t\tpos.addVec(Vector2f(1.0f,1.0f));\n\t\t}\n\t\telse\n\t\t{\n\t\t\tpos.addVec(Vector2f(1.0f,-1.0f));\n\t\t}\n\t}\n\telse\n\t{\n\n\t{\n\t\tif(movy)\n\t\t{\n\n\t\t\tpos.addVec(Vector2f(-1.0f,1.0f));\n\t\t}\n\t\telse\n\t\t{\n\t\t\tpos.addVec(Vector2f(-1.0f,-1.0f));\n\t\t}\n\t}\n\t}\n}",
+			"\n\t\tfor (int j = 1; j <= 3; j++)\n\t\t{\n\t\t\tEntity dirt_terrain(Vector2f(16 * i ,yPos + startY + grass_terrain.getCurrentFrame().h*j), dirtTexture, 1.0f);\n\t\t\tentities.push_back(dirt_terrain);\t\n\t\t}",
+			");\n",
+			" \n",
+			"\");\n",
+			"100",
+			"\"\n",
+			"\n\tSDL_Rect src;\n\tsrc.x = 0;\n\tsrc.y = 0;\n\tsrc.w = 16;\n\tsrc.h = 16;\n",
+			"\n\tif (SDL_Init(SDL_INIT_VIDEO) > 0)\n\t{\n\t\tstd::cout << \"SDL INTIALIZATION FAILED - SDL ERROR : \" << SDL_GetError() << std::endl;\n\t}",
+			">"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"tempPos",
+			"collisionAccuracy",
+			"",
+			"vel"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"incremental_find":
+	{
+		"height": 28.0
+	},
+	"input":
+	{
+		"height": 41.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 181.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Build Debug",
+	"replace":
+	{
+		"height": 73.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 284.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
